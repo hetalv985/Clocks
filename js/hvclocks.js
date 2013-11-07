@@ -23,7 +23,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  * 
 Created by: Hetal Vora
 Date: 11/06/2013
-Description: This Javascript files contains methods to draw an analog clock
+Description: This Javascript file contains methods to draw an analog clock
 or a digital clock onto an HTML5 canvas.
 */
 
