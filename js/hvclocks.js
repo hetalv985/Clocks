@@ -114,6 +114,9 @@ function initializeCanvasAndContext(){
  * and redraw the clock elements every second. */
 function drawAnalogClock() {
     initializeCanvasAndContext();
+    document.getElementById("analogButton").disabled = true;
+    document.getElementById("digitalButton").disabled = false;
+
     if(digitalTimer){
         window.clearInterval(digitalTimer);
     }
@@ -227,6 +230,10 @@ function drawSecondHand() {
  * and redraw the clock elements every second. */
 function drawDigitalClock() {
     initializeCanvasAndContext();
+    
+    document.getElementById("analogButton").disabled = false;
+    document.getElementById("digitalButton").disabled = true;
+    
     if(analogTimer){
         window.clearInterval(analogTimer);
     }
