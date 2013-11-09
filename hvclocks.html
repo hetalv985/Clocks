@@ -52,11 +52,15 @@ allowing a user to select either Analog or Digital clock option.
         <!-- add a canvas element -->
         <canvas id="mycanvas" width="300" height="300" style="border:4px solid #000000;"></canvas>
         <br>
-        
+       
         <!-- display 2 buttons - analog and digital -->
         <input type="button" id="analogButton" onclick="drawAnalogClock();" value="Analog"
                class="buttonStyle"></input>
         <input type="button" id="digitalButton" onclick="drawDigitalClock();" value="Digital" 
                class="buttonStyle"></input> 
+        
+         <script>
+            drawAnalogClock();
+        </script> 
     </body>
 </html>
